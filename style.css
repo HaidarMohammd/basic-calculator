@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Eurostile';
+  src: url('assets/Eurostile.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'digital-7.regular';
+    src: url('assets/digital-7.regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Roboto-Thin';
+    src: url('assets/Roboto-Thin.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('assets/Lato-Regular.ttf') format('truetype');
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    background-color: #bcc1d9;
+    width: 367.5px;
+    height: 500px;
+    border-radius: 20px;
+    flex-direction:column ;
+    margin: 10% 50%;
+    padding: 10px;
+    border: 5px solid #858aa1;
+    box-shadow: 20px 20px 20px 0px #41414181;
+}
+.title{
+    
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-family: 'Eurostile', sans-serif;
+}
+header{
+    margin-left: 20px;
+    color: #4d4646;
+}
+.black-square{
+    width: 120px;
+    height: 35px;
+    background-color: #4d4646;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+
+#display{
+    margin: 0 auto;
+    background-color: #d6e3e6;
+    width: 90%;
+    height: 100px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 0 2px 6.75px #848aa5cc;
+    font-family: 'digital-7.regular', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 50px;
+    border: none;
+    color: #4d4646;
+}
+#display:focus{
+    outline: none;
+
+}
+h6 {
+    font-family: 'Lato-Regular', sans-serif;
+    color: #4d4646;
+    margin-left: 82%;
+    font-size: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    font-family: 'Lato-Regular', sans-serif;
+    background-color: #bcc1d9;
+    width: 55px;
+    height: 47px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 20px;
+    border: 0.5px rgb(160, 160, 160) solid;
+    color: #4d4646;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+} 
+.button:active {
+  background-color: #9ca0b4;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  transform: scale(0.95);
+}
+
+.first, .second, .third, .fourth, .fifth{
+    display: flex;
+    flex-direction: column;
+}
+.fifth {
+    display: flex;
+}
+.plus{
+height:105px;
+}
+.hms, .root, .percentage, .tax-minus, .tax-plus{
+    height: 22.5px;
+    font-size: 15px;
+}
+.ac, .c{
+    background-color: #949cbb;
+}
